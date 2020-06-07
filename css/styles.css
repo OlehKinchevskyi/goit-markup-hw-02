@@ -1,0 +1,195 @@
+/* цвет основного текста #212121; */
+/* вторичный цвет #757575; */
+/* цвет заголовков #FFFFFF; */
+/* #2196F3; цвет кнопок, логотипа и подсветка  */
+/* цвет бэкграунда #E5E5E5; */
+/* цвет секций #F5F4FA; */
+/* цвет подписи в футере rgba(255, 255, 255, 0.4); */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #e5e5e5;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.8;
+}
+/* Header */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, cursive;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo:hover {
+  color: var(--title-text-color);
+}
+.logo-black {
+  color: var(--title-text-color);
+}
+.logo-white {
+  color: var(--primary-white-color);
+}
+
+ul {
+  list-style: none;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contacts a {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+.footer-contacts p {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 400;
+}
+.footer-contacts a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  color: var(--accent-color);
+}
+.hero-title {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* Наши преимущества */
+.feature-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+/* Чем мы занимаемся */
+.product-list .title {
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.product-list a {
+  text-decoration: none;
+}
+/* Наша команда */
+.section-team {
+  background-color: #f5f4fa;
+}
+.team-name {
+  color: var(--title-text-color);
+}
+/* Добавления hover к ссылкам на соцсети */
+.social-list .link:hover,
+.social-list .link:focus {
+  color: var(--accent-color);
+}
+.social-list .link {
+  text-decoration: none;
+}
+/* footer */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+.join b,
+.subscription b {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.caption {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+}
+/* Портфолио */
+.portfolio-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-list .link {
+  color: var(--primary-text-color);
+}
+.portfolio-list a {
+  text-decoration: none;
+}
+.description {
+  color: var(--primary-white-color);
+}
+.filter button {
+  color: var(--title-text-color);
+}
+.filter button:hover,
+.filter button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
